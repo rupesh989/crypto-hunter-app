@@ -1,1 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(28, 25, 25);
+  padding-bottom: 10px;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li a {
+  margin-left: 15rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
 
