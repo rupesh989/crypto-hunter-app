@@ -37,8 +37,8 @@ const CoinDetails = () => {
           <div className=' coin-detail'  >
             <div className='coin-info'>
               <div className='btn'>
-                <button onClick={() => setCurrency('inr')} >inr</button>
-                <button onClick={() => setCurrency('usd')}>usd</button>
+                <button onClick={() => setCurrency('inr')} >inr®</button>
+                <button onClick={() => setCurrency('usd')}>usd$</button>
               </div>
               <div className="time">
                 {coin.last_updated}
